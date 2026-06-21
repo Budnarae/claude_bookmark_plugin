@@ -111,7 +111,7 @@ args에서 다음을 추출한다:
 다음 PowerShell 명령을 실행한다:
 
 ```
-pwsh -File "C:\Users\budnarae\.claude\skills\bookmark\bin\refresh_bookmarks.ps1"
+pwsh -File "..\..\bin\refresh_bookmarks.ps1"
 ```
 
 실행 실패 시 (VS 미실행 등) 사용자에게 수동으로 Bookmark Studio의 Refresh 버튼을 클릭하도록 안내한다.

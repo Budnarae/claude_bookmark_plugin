@@ -67,7 +67,7 @@ description: 지정한 북마크 폴더의 번호를 현재 순서 기준으로 
 다음 PowerShell 명령을 실행한다:
 
 ```
-pwsh -File "C:\Users\budnarae\.claude\plugins\bookmark\bin\refresh_bookmarks.ps1"
+pwsh -File "..\..\bin\refresh_bookmarks.ps1"
 ```
 
 실행 실패 시 사용자에게 Bookmark Studio에서 수동 Refresh를 클릭하도록 안내한다.

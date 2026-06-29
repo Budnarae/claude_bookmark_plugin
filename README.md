@@ -110,6 +110,18 @@ claude --plugin-dir ~/.claude/skills/bookmark
 
 `--dry-run`으로 먼저 결과를 확인한 뒤 실행을 권장합니다.
 
+---
+
+### `/bookmark:help` — 도움말
+
+모든 커맨드의 사용법·옵션·색상 의미를 한눈에 출력합니다.
+
+```
+/bookmark:help [커맨드명]
+```
+
+인자 없이 호출하면 전체 요약을, `create`/`plan`/`renumber`/`restore` 중 하나를 주면 해당 커맨드 상세를 출력합니다.
+
 ## 동작 방식
 
 1. 코드베이스 분석 → 관련 파일/메서드 탐색 (entry → leaf 순)
